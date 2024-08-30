@@ -1,0 +1,165 @@
+* {
+    overflow: hidden;
+    border: 1px solid gray;
+}
+
+.uklad-sloneczny {
+    background-color: #000000;
+    height: 50vw;
+    width: 100vw;
+    margin-top: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slonce {
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+}
+.merkury {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #b7baa9;
+    position: absolute;
+    left: 20px;
+    border-radius: 50%;
+    margin: 36px;
+}
+.okrag1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    animation: seks 4400ms linear infinite;
+}
+@keyframes seks {
+     0%{
+        transform: rotate(-360deg);
+      }
+      
+}
+.okrag2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    animation: seks 11300ms linear infinite;
+}
+.wenus {
+    content: "";
+    width: 13px;
+    height: 13px;
+    background-color: #8b5614 ;
+    position: absolute;
+    left: 20px;
+    border-radius: 50%;
+    margin: 61px;
+}
+.okrag3 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: absolute;
+    animation: seks 18000ms linear infinite;
+}
+.ziemia {
+    content: "";
+    width: 17px;
+    height: 17px;
+    background-color: #5145a9 ;
+    position: absolute;
+    left: 20px;
+    border-radius: 50%;
+    margin: 77px;
+}
+.okrag4 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: absolute;
+    animation: seks 34300ms linear infinite;
+}
+.mars {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #d8aa48 ;
+    position: absolute;
+    left: 20px;
+    border-radius: 50%;
+    margin: 80px;
+}
+.okrag5 {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    position: absolute;
+    animation: seks 219000ms linear infinite;
+}
+.jowisz {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: #866748 ;
+    position: absolute;
+    left: 20px;
+    border-radius: 50%;
+    margin: 90px;
+}
+.okrag6 {
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    position: absolute;
+    animation: seks 547500ms linear infinite;
+}
+.saturn {
+    content: "";
+    width: 45px;
+    height: 45px;
+    background-color: #9f8a5b ;
+    position: absolute;
+    left: 20px;
+    border-radius: 50%;
+    margin: 150px;
+}
+.okrag7 {
+    width: 1400px;
+    height: 1400px;
+    border-radius: 50%;
+    position: absolute;
+    animation: seks 1533000ms linear infinite;
+}
+.uran {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #6d9efd ;
+    position: absolute;
+    left: 20px;
+    border-radius: 50%;
+    margin: 200px;
+}
+.okrag8 {
+    width: 2200px;
+    height: 2200px;
+    border-radius: 50%;
+    position: absolute;
+    animation: seks 30112000ms linear infinite;
+}
+.neptun {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #9ac7cd ;
+    position: absolute;
+    left: 20px;
+    border-radius: 50%;
+    margin: 310px;
+}
